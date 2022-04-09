@@ -5,6 +5,7 @@ from flask import Flask, abort, request
 from mock_data import catalog
 from config import db
 from bson import ObjectId
+from flask_cors import CORS
 
 
 
